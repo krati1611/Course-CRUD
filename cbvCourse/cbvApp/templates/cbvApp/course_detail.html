@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Detail</title>
+</head>
+<body>
+    <h1>Course detail</h1>
+    <ul>
+      <h3><li>Name: {{course.name}}</li></h3>
+      <h3><li>Description: {{course.description}}</li></h3>
+      <h3><li>Instructor: {{course.instructor}}</li></h3>
+      <h3><li>Rating: {{course.rating}}</li></h3>
+    </ul>
+    </br>
+      <h3><a href="/delete/{{ course.id }}">Delete</a></h3>
+      <h3><a href="/update/{{ course.id }}">Update</a></h3>
+      <h3><a href="/courses">Go To Courses</a></h3>
+</body>
+</html>
+
